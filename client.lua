@@ -86,7 +86,6 @@ Command["record"] = function(action, routeName, routeId, other)
 			end 
 			SetEntityProofs(ped, true, true, true, true, true, true, true, true);
 			SetEntityProofs(vehicle, true, true, true, true, true, true, true, true);
-			print(vehicle,ped)
 			PlayRecordOnVehicle(vehicle,routeName or defaultRouteName, routeId or defaultRouteId, ai )
 			print("Playing Record:", string.format("%s%03d", routeName or defaultRouteName,routeId or defaultRouteId) ..'.yvr')
 		else 
@@ -150,7 +149,7 @@ function RecordStart(routename,routeid, ped)
 		SetVehicleHandlingField(veh,"CHandlingData","AIHandling","SPORTS_CAR")
 		MaxOut(ped,veh)
 	end 
-	print(1230)
+
 	RecordEnd = function ()
 		IsAnythingRecording = false 
 	end 
