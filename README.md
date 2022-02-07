@@ -45,5 +45,6 @@ record play h 1 1
 record play h 1
 ```
 # Step 5 
-Move yvr files to your script and copy some playback lines from my client.lua .
-So you can make some stuff like [IntialD(Showcase Video)](https://www.youtube.com/watch?v=hicW1YeqAG4])
+Move yvr files to your script and copy some playback lines from my client.lua .  
+So you can make some stuff like [IntialD(Showcase Video)](https://www.youtube.com/watch?v=hicW1YeqAG4])  
+[IntialD(Showcase Video2)](https://www.youtube.com/watch?v=YaD424ukZKw)  
