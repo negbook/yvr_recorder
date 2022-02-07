@@ -41,9 +41,10 @@ Step example and tutorial:
 record start h 1
 record stop 
 # Step 2 
+Find h.ovr from the path [yourscript]/yvr_recorder/pre-stream/
 Transfer h.ovr to h.yvr with OPENIV or other tools.
 # Step 3 
-Put h.yvr into stream floder in your script.
+Put h.yvr into [yourscript]/yvr_recorder/stream floder in your script.
 # Step 4 
 ### with NPC ai driving :
 ```
