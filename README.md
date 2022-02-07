@@ -1,6 +1,15 @@
+[Github](https://github.com/negbook/yvr_recorder) 
 # yvr_recorder
 a ovr writer script for FiveM.
+Record yvr file for 
+```
+StartPlaybackRecordedVehicle
+StartPlaybackRecordedVehicleUsingAi
+```
 
+so you can make some stuff like   
+[IntialD(Showcase Video)](https://www.youtube.com/watch?v=hicW1YeqAG4])  
+[IntialD(Showcase Video2)](https://www.youtube.com/watch?v=YaD424ukZKw)  
 by using command
 ```
 record start routename routeid
@@ -26,7 +35,7 @@ if IsPlaybackGoingOnForVehicle(vehicle) then
 end
 ```
 
-Step example:
+Step example and tutorial:
 [Youtube](https://www.youtube.com/watch?v=gsCJl7Us-1A)
 # Step 1
 record start h 1
@@ -46,5 +55,3 @@ record play h 1
 ```
 # Step 5 
 Move yvr files to your script and copy some playback lines from my client.lua .  
-So you can make some stuff like [IntialD(Showcase Video)](https://www.youtube.com/watch?v=hicW1YeqAG4])  
-[IntialD(Showcase Video2)](https://www.youtube.com/watch?v=YaD424ukZKw)  
