@@ -181,7 +181,10 @@ function RecordStart(routename,routeid, ped)
 				infos.GasPedalPower = Power
 				infos.BreakPedalPower = Break
 				infos.UseHandBrake = GetVehicleHandbrake(veh) and "true" or "false"
-				if not first then infos.Time = 0 end 
+				if not first then 
+					infos.Time = 0 
+					StartTime = GetGameTimer()
+				end 
 				table.insert(lists,infos)
 				if lists and (#(lists) > TransferServerDataListMax or not first) then 
 					first = true 
